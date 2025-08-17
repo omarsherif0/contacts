@@ -12,6 +12,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 // Basic route
+console.log("Listening on port:", PORT);
 app.get('/', (req, res) => {
   res.send('API is working!');
 });
